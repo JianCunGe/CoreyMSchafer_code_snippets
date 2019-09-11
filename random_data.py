@@ -23,7 +23,5 @@ for num in range(100):
     state = random.choice(states)
     zip_code = random.randint(10000, 99999)
     address = f'{street_num} {street} St., {city} {state} {zip_code}'
-
     email = first.lower() + last.lower() + '@bogusemail.com'
-
     print(f'{first} {last}\n{phone}\n{address}\n{email}\n')
